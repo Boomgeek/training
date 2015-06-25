@@ -42,8 +42,6 @@ function signin($user,$password)
 			//print_r($userData);
 			session_start();
 			$_SESSION["empID"] = $empID;
-			$_SESSION["empUser"] = $empUser;
-			$_SESSION["empPassword"] = $empPassword;
 			$_SESSION["empRole"] = $empRole;
 			session_write_close();
 			echo "Success:Signin successful.";

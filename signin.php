@@ -1,6 +1,6 @@
 <?php 
 session_start();
-if(isset($_SESSION["empID"]))
+if(isset($_SESSION["empID"]) || isset($_SESSION["empRole"]))
 {
     header("location:index.php");
 }
