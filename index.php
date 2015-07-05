@@ -47,14 +47,14 @@ if(!isset($_SESSION["empID"]) || !isset($_SESSION["empRole"]))
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="./">Traning Management</a>
+          <a class="navbar-brand" href="./">Training Management</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li id="people-traning-btn" class="menu-control active"><a href="javascript:void(0)" class="glyphicon glyphicon-user"> จัดผู้เข้าร่วมโครงการ</a></li>
-            <li id="save-traning-btn" class="menu-control"><a href="javascript:void(0)" class="glyphicon glyphicon-floppy-disk"> บันทึกโครงการ</a></li>
-            <li id="edit-traning-btn" class="menu-control"><a href="javascript:void(0)" class="glyphicon glyphicon-pencil"> แก้ไขโครงการ</a></li>
-            <li id="report-traning-btn" class="menu-control"><a href="javascript:void(0)" class="glyphicon glyphicon glyphicon-file"> สรุปข้อมูล</a></li>
+            <li id="people-training-btn" class="menu-control active"><a href="javascript:void(0)" class="glyphicon glyphicon-user"> จัดผู้เข้าร่วมโครงการ</a></li>
+            <li id="save-training-btn" class="menu-control"><a href="javascript:void(0)" class="glyphicon glyphicon-floppy-disk"> บันทึกโครงการ</a></li>
+            <li id="edit-training-btn" class="menu-control"><a href="javascript:void(0)" class="glyphicon glyphicon-pencil"> แก้ไขโครงการ</a></li>
+            <li id="report-training-btn" class="menu-control"><a href="javascript:void(0)" class="glyphicon glyphicon glyphicon-file"> สรุปข้อมูล</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

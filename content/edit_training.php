@@ -80,4 +80,4 @@ if(!isset($_SESSION["empID"]) || !isset($_SESSION["empRole"]))
     </div>
   </div>
 </body>
-<script src="./js/content/edit_traning.js"></script>
+<script src="./js/content/edit_training.js"></script>

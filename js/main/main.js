@@ -1,6 +1,6 @@
 $(document).ready(function (){
 	//start load index content
-    callContent("people_traning.php");
+    callContent("people_training.php");
     //end load index content
 
     //start event listener
@@ -9,19 +9,19 @@ $(document).ready(function (){
         $(this).addClass("active");
     });
 
-    $("#people-traning-btn").click(function() {
-        callContent("people_traning.php");
+    $("#people-training-btn").click(function() {
+        callContent("people_training.php");
     });
 
-    $("#save-traning-btn").click(function() {
-    	callContent("save_traning.php");
+    $("#save-training-btn").click(function() {
+    	callContent("save_training.php");
     });
 
-    $("#edit-traning-btn").click(function() {
-        callContent("edit_traning.php");
+    $("#edit-training-btn").click(function() {
+        callContent("edit_training.php");
     });
 
-    $("#report-traning-btn").click(function() {
+    $("#report-training-btn").click(function() {
          $('#content').html(null);
     });
     //end event listener

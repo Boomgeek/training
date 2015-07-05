@@ -13,7 +13,7 @@ $(document).ready(function (){
 //start function zone
 function callTable(){
     $.ajax({
-        url: "./php/content_people_traning.php",
+        url: "./php/content_people_training.php",
         type: "POST",
         data: "",
         success: function(result) {

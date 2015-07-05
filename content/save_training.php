@@ -54,4 +54,4 @@ if(!isset($_SESSION["empID"]) || !isset($_SESSION["empRole"]))
     </div>
   </div>
 </body>
-<script src="./js/content/save_traning.js"></script>
+<script src="./js/content/save_training.js"></script>
