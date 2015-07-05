@@ -20,6 +20,7 @@ if(!isset($_SESSION["empID"]) || !isset($_SESSION["empRole"]))
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="./css/main.css" rel="stylesheet">
@@ -46,33 +47,29 @@ if(!isset($_SESSION["empID"]) || !isset($_SESSION["empRole"]))
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://getbootstrap.com/examples/starter-template/#">Project name</a>
+          <a class="navbar-brand" href="./">Traning Management</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="http://getbootstrap.com/examples/starter-template/#">Home</a></li>
-            <li><a href="http://getbootstrap.com/examples/starter-template/#about">About</a></li>
-            <li><a href="http://getbootstrap.com/examples/starter-template/#contact">Contact</a></li>
+            <li id="people-traning-btn" class="menu-control active"><a href="javascript:void(0)" class="glyphicon glyphicon-user"> จัดผู้เข้าร่วมโครงการ</a></li>
+            <li id="save-traning-btn" class="menu-control"><a href="javascript:void(0)" class="glyphicon glyphicon-floppy-disk"> บันทึกโครงการ</a></li>
+            <li id="edit-traning-btn" class="menu-control"><a href="javascript:void(0)" class="glyphicon glyphicon-pencil"> แก้ไขโครงการ</a></li>
+            <li id="report-traning-btn" class="menu-control"><a href="javascript:void(0)" class="glyphicon glyphicon glyphicon-file"> สรุปข้อมูล</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
-
-    </div><!-- /.container -->
-
+    <!-- Load Content -->
+    <div class="container main-content" id="content"></div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <!-- Main js script -->
+    <script src="./js/main/main.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./js/main/ie10-viewport-bug-workaround.js"></script>
   

@@ -1,7 +1,27 @@
 body {
   padding-top: 50px;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+.main-content {
+  padding: 30px;
+  /*text-align: center; */
 }
+
+.form-inline > * {
+   margin:20px 20px;
+}
+
+.table-striped>thead>tr>th{
+	 background-color: black;
+	 color: white;
+}
+.table-striped>tbody>tr:nth-child(odd)>td{
+   background-color: #eee;
+}
+.table-striped>tbody>tr:nth-child(even)>td{
+   background-color: white;
+ }
+
+
+
+
+
